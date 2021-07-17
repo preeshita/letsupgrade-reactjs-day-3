@@ -1,0 +1,19 @@
+.icon{
+    color: red;
+    font-size: 30px;
+}
+body{
+    background-color: #ADFF2F;
+}
+.grid{
+    display: grid;
+    grid-template-columns: lfr lfr lfr;
+    grid-gap: 15px;
+}
+.box{
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
